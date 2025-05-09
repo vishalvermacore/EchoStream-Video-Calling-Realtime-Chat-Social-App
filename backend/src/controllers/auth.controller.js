@@ -1,3 +1,4 @@
+// Description: This file contains the authentication controller functions for user signup, login, logout, and onboarding.
 import { upsertStreamUser } from "../lib/stream.js";
 import User from "../models/User.js";
 import jwt from "jsonwebtoken";
