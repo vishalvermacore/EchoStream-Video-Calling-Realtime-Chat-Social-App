@@ -1,6 +1,6 @@
-# Streamify
+# EchoStream
 
-Streamify is a full-stack web application designed to connect language learners worldwide. It allows users to create accounts, find language partners, send friend requests, chat, and even make video calls. The application is built with a modern tech stack, including React, Vite, TailwindCSS, Node.js, Express, MongoDB, and Stream APIs.
+EchoStream is a full-stack web application designed to connect language learners worldwide. It allows users to create accounts, find language partners, send friend requests, chat, and even make video calls. The application is built with a modern tech stack, including React, Vite, TailwindCSS, Node.js, Express, MongoDB, and Stream APIs.
 
 ---
 
@@ -51,7 +51,7 @@ Streamify is a full-stack web application designed to connect language learners 
 ---
 ## Project Structure
 
-STREAMIFY/ ├── backend/ │ ├── src/ │ │ ├── controllers/ # API logic │ │ ├── lib/ # Database and Stream API utilities │ │ ├── middleware/ # Authentication middleware │ │ ├── models/ # Mongoose schemas │ │ ├── routes/ # API routes │ │ └── server.js # Entry point for the backend │ ├── package.json # Backend dependencies and scripts │ └── .env # Backend environment variables ├── frontend/ │ ├── src/ │ │ ├── components/ # Reusable React components │ │ ├── constants/ # Static data like themes and languages │ │ ├── hooks/ # Custom React hooks │ │ ├── lib/ # Utility functions and API calls │ │ ├── pages/ # React pages │ │ ├── store/ # Zustand state management │ │ ├── App.jsx # Main React component │ │ └── main.jsx # React entry point │ ├── public/ # Static assets │ ├── index.html # HTML template │ ├── tailwind.config.js # TailwindCSS configuration │ ├── vite.config.js # Vite configuration │ ├── package.json # Frontend dependencies and scripts │ └── .env # Frontend environment variables ├── package.json # Root-level scripts ├── .gitignore # Ignored files and directories └── README.md # Project documentation
+EchoStream/ ├── backend/ │ ├── src/ │ │ ├── controllers/ # API logic │ │ ├── lib/ # Database and Stream API utilities │ │ ├── middleware/ # Authentication middleware │ │ ├── models/ # Mongoose schemas │ │ ├── routes/ # API routes │ │ └── server.js # Entry point for the backend │ ├── package.json # Backend dependencies and scripts │ └── .env # Backend environment variables ├── frontend/ │ ├── src/ │ │ ├── components/ # Reusable React components │ │ ├── constants/ # Static data like themes and languages │ │ ├── hooks/ # Custom React hooks │ │ ├── lib/ # Utility functions and API calls │ │ ├── pages/ # React pages │ │ ├── store/ # Zustand state management │ │ ├── App.jsx # Main React component │ │ └── main.jsx # React entry point │ ├── public/ # Static assets │ ├── index.html # HTML template │ ├── tailwind.config.js # TailwindCSS configuration │ ├── vite.config.js # Vite configuration │ ├── package.json # Frontend dependencies and scripts │ └── .env # Frontend environment variables ├── package.json # Root-level scripts ├── .gitignore # Ignored files and directories └── README.md # Project documentation
 
 ---
 ## Installation
@@ -64,7 +64,7 @@ STREAMIFY/ ├── backend/ │ ├── src/ │ │ ├── controllers/ 
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/streamify.git
+   git clone https://github.com/your-username/EchoStream.git
    cd streamify
 
 2. Install dependencies:
